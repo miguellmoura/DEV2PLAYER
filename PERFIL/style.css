@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Inconsolata:wght@200&display=swap');
+body{
+    background-image: linear-gradient(to right, #121126, #190840 60%);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+#links{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+a{
+    margin-left: 10px;
+    color: white;
+}
+
+#nome_insignia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    margin-top: 100px;
+}
+#nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+#insignia{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+#avaliacoes_ad{
+    margin-top: 50px;
+}
+
+.block1 {
+    background-color: #121126;
+    height: 14%;
+    width: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 2px #DB2EF2;
+    margin-bottom: 70px;
+}
+
+.block01 {
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.block01 > .cima01 {
+    display: flex;
+    justify-content: space-between
+    
+}
+.cima01 > .perfil {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cima01 > .perfil > #p1 {
+    font-family: 'Bruno Ace', cursive;
+    margin: 10px ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.perfil > img {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 20px;
+
+}
+.perfil > #f {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 10px;
+    border-radius: 50%
+}
+.perfil > #f1 {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 10px;
+    border-radius: 50%
+}
+.jogo {
+    display: flex;
+    margin-right: 0px
+}
+.jogo > img {
+    padding-top: 11px;
+    padding-right: 4px;
+    width: 70%;
+    height: 70%;
+}
+.jogo > #cs {
+    padding-top: 11px;
+    padding-right: 4px;
+    width: 70%;
+    height: 70%;
+
+}
+
+
+.nomejogo {
+    display: flex;
+    flex-direction: column;
+}
+.nomejogo > #p2 {
+    color: yellow;
+    margin-bottom: 0px;
+}
+.nomejogo > #p3 {
+    font-size: 10px;
+    margin: 0px;
+}
+.stars {
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+}
+.star {
+    display: inline-block;
+    font-size: 28px;
+    color: #ccc;
+    margin: 10px 10px 0px 0px;
+}
+.star.active,
+.star:hover,
+.star:hover ~ .star {
+  color: #f4d935;
+}
+
+.baixo01 {
+    display: flex;
+    flex-direction: column;
+}
+.baixo01 > #p1 {
+    margin: 10px 0px 5px 10px;
+}
+.baixo01 > #p2 {
+    margin-left: 10px;
+}
+hr {
+    margin: 0px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Inconsolata:wght@200&display=swap');
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+h1{
+    text-align: center;
+    background-image:url(imagens/imagemfundo.png)
+}
+
+body{
+    text-align: center;
+    color: lawngreen;
+}
+
+a {
+    color: lawngreen;
+    background-color: transparent;
+   }
+a:active, a:hover {
+    color: white;
+}
+
+a:visited {
+    background-color: transparent;
+}
+
+input{
+    border-width: 4px;
+    border-color:rgb(64, 2, 125) ;
+    color: black;
+}
+
+button{
+    font-size:larger;
+    background-image: linear-gradient(to right, rgb(64, 2, 125), rgb(13, 13, 215));
+    width: 200px; height: 70px;
+    border-radius: 10px;
+    color: white;
+}
+#botao{
+    color: lawngreen;
+    background-color: transparent;
+}

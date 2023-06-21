@@ -1,0 +1,44 @@
+#cont_ext {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items:flex-start;
+    margin-top: 30px;
+}
+#infoavaliacao{
+    margin-top: 30px;
+}
+
+body{
+    background-image: linear-gradient(to right, #121126, #190840 60%);
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: white;
+}
+#droplist, #msg{
+    background-image: linear-gradient(to right, #121126, #190840 60%);
+    color: greenyellow;
+    border-color: purple;
+
+}
+
+option{
+    color: black;
+}
+
+#enviar{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(to right, #121126, #190840 60%)
+}
+
+.star{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    color: gray;
+}
+.star:hover{
+    color: yellow;
+}

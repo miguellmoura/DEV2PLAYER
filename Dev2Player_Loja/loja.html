@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagens/favdev.ico" type="image/x-icon">
+    <title>Dev2Player</title>
+    <link rel="stylesheet" href="dev2player.css">
+ 
+  
+  
+</head>
+<body>
+    <div id="fundo_loga"></div>
+    <!-- bara superior da tela -->
+    <div class="bara_fixa">
+      <a href="../Dev2Player-main/index.html"><img src="./imagens/logo_Dev2Player.png" width="250"></a>
+      <br>
+    </div>
+    <img id="icone_loja" src="./imagens/imagem_icone_loja.png" width="120">
+     <br>
+     <br>
+    <p id="contador_pontos"></p>
+    div
+    <button id="botao_carinho" onclick="abrir_carinho()"><img  src="./imagens/logo carinho.png" width="23"> carrinho</button>
+    <!-- imagen central -->
+    <img id="imagem_central" src="./imagens/imagem_fundo_loga_Dev2Player .png" width="780">
+    <br>
+    <br>
+    <!-- primeira linha de produtos da loja -->
+   <div class="box_A1">
+      <div class="box_pc">
+      <img src="./imagens/pc_gemer_loga.jpg" width="200">
+       <p>Pc gamer <br>
+       65 000 PONTOS</p>
+       <button id="botao_pc" onclick="adicionar_pc_carinho(valor_compra)">adicionar ao carrinho</button>
+      </div>
+       <br>
+       <br>
+      <div class="box_cadeira">
+        <img src="./imagens/cadeira_gemer_loga.png" width="200">
+        <p>Cadeira gamer <br>
+        15 000 PONTOS</p>
+        <button onclick="adicionar_cadeira_carinho()">adicionar ao carrinho</button>
+      </div>
+       <br>
+       <br>
+      <div class="box_teclado">
+        <img src="./imagens/teclado_loja.png" width="200">
+        <p>Teclado gamer <br>
+        3 500 PONTOS</p>
+        <button onclick="adicionar_teclado_carinho()">adicionar ao carrinho</button>
+      </div>
+       <br>
+       <br> 
+      <div class="box_munitor">
+        <img src="./imagens/munitor_loja.png" width="200">
+        <p>Monitor <br>
+        25 500 PONTOS</p>
+        <button onclick="adicionar_munitor_carinho()">adicionar ao carrinho</button>
+      </div>
+      <br>
+      <br>
+      <div class="box_bleze">
+        <img src="./imagens/bleze_loja.png" width="200">
+        <p>Carrinho Blaze <br>
+        99999999 PONTOS</p>
+        <button onclick="adicionar_bleze_carinho()">adicionar ao carrinho</button>
+      </div>
+    </div>
+    <br>
+    <!-- segunda linha de produtos da loja -->
+    <br>
+    <div class="box_A2">
+      <div class="box_mauseped">
+        <img src="./imagens/mauseped_loja.png" width="200">
+        <p>Mousepad <br>
+        2 700 PONTOS</p>
+        <button onclick="adicionar_mauseped_carinho()">adicionar ao carrinho</button>
+      </div>
+      <br>
+      <br>
+      <div class="box_roleta">
+        <img src="./imagens/roleta_loja.png" width="200">
+        <p>Prêmio aleatório <br>
+        6 500 PONTOS</p>
+        <button onclick="adicionar_roleta_carinho()">adicionar ao carrinho</button>
+      </div>
+      <br>
+      <br>
+      <div class="box_giftcrd">
+        <img src="./imagens/giftcard_loja.png" width="200">
+        <p>Gift Card ... <br>
+        2 000 PONTOS</p>
+        <button onclick="adicionar_gifitcrd_carinho()">adicionar ao carrinho</button>
+      </div>
+      <br>
+      <br>
+      <div class="box_pix">
+        <img src="./imagens/pix_loja.png" width="200">
+        <p>Pix <br>
+        4 500 PONTOS</p>
+        <button onclick="adicionar_pix_carinho()">adicionar ao carrinho</button>
+      </div>
+    </div>
+    <!-- carinho -->
+    <div class="carinho">
+      <div id="carinho_1">
+        <h2><img  src="./imagens/logo carinho.png" width="29"> carrinho</h2>
+        <img id="avanso_loga" src="./imagens/avanso_loga_1.png" width="450">
+        <button id="botao_fechar_carinho" onclick="fechar_carinho()">Fechar</button>
+        <!-- itens carino -->
+        <div id="conteiner">
+          <div id="pc_carinho">
+            <img id="imagen_list" src="./imagens/pc_gemer_loga.jpg" width="80">
+            <p id="carinho">Pc gamer <br>
+            65 000 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_pc_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="cadeira_carinho">
+            <img id="imagen_list" src="./imagens/cadeira_gemer_loga.png" width="80">
+            <p id="carinho">cadeira_gamer <br>
+            15 000 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_cadeira_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="teclado_carinho">
+            <img id="imagen_list" src="./imagens/teclado_loja.png" width="80">
+            <p id="carinho">teclado_gamer <br>
+            3 500 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_teclado_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="munitor_carinho">
+            <img id="imagen_list" src="./imagens/munitor_loja.png" width="80">
+            <p id="carinho">monitor <br>
+            25 500 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_munitor_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="bleze_carinho">
+            <img id="imagen_list" src="./imagens/bleze_loja.png" width="80">
+            <p id="carinho">blaze_carinho <br>
+            99999999 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_bleze_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="mauseped_carinho">
+            <img id="imagen_list" src="./imagens/mauseped_loja.png" width="80">
+            <p id="carinho">Mousepad <br>
+            2 700 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_mauseped_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="roleta_carinho">
+            <img id="imagen_list" src="./imagens/roleta_loja.png" width="80">
+            <p id="carinho">roleta <br>
+            6 500 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_roleta_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="gifitcrd_carinho">
+            <img id="imagen_list" src="./imagens/giftcard_loja.png" width="80">
+            <p id="carinho">gifitcrd <br>
+            2 000 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_gifitcrd_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+          <div id="pix_carinho">
+            <img id="imagen_list" src="./imagens/pix_loja.png" width="80">
+            <p id="carinho">pix <br>
+            2 000 PONTOS</p>
+            <button id="retirar_carinho" onclick="retirar_pix_carinho()"><img  src="./imagens/lixera loga.png" width="23"></button>
+          </div>
+        </div>
+        <div id="valor_final"></div>
+        <p id="valor_insuficiente"></p>
+        <button id="botao_procimo_carinho" onclick="procimo_1_carinho()">confirmar</button>
+      </div>
+      
+      <div id="carinho_2">
+        <h2><img  src="./imagens/logo carinho.png" width="29"> carrinho</h2>
+        <img id="avanso_loga" src="./imagens/avanso_loga_2.0.png" width="450">
+        <button id="botao_fechar_carinho" onclick="fechar_carinho()">Fechar</button>
+        <h3>informações para entrega</h3>
+        <div id="questionario_pesoal">
+          <p id="p_c2">insira seu Nome</p>
+          <input id="Nome" type="text">
+          <p id="p_c2">cpf</p>
+          <input id="cpf" type="text">
+          <p id="p_c2">email</p>
+          <input id="email" type="email">
+          <p id="p_c2">telefone</p>
+          <input id="numero" type="text">
+        </div>
+        <div id="campos_vazio"></div>
+
+        <button id="botao_procimo_carinho" onclick="procimo_2_carinho()">proximo</button>
+      </div>
+      <div id="carinho_3">
+        <h2><img  src="./imagens/logo carinho.png" width="29"> carrinho</h2>
+        <img id="avanso_loga" src="./imagens/avanso_loga_3.png" width="450">
+        <button id="botao_fechar_carinho" onclick="fechar_carinho()">Fechar</button>
+        <button id="botao_procimo_carinho" onclick="procimo_3_carinho()">proximo</button>
+        <h3 id="Endereço">Endereço.</h3>
+        <div id="questionario_pesoal">
+          <p id="p_c2">CEP.</p>
+          <input id="cep" type="text">
+          <p id="p_c2">Endereço.</p>
+          <input id="endereço" type="text">
+          <p id="p_c2">numero.</p>
+          <input id="numero_end" type="text">
+          <p id="p_c2">Complemento.</p>
+          <input id="Complemento" type="text">
+        </div>
+      </div>
+      <div id="carinho_4">
+        <h2><img  src="./imagens/logo carinho.png" width="29"> carrinho</h2>
+        <img id="avanso_loga" src="./imagens/avanso_loga_4.png" width="450">
+        <button id="botao_fechar_carinho" onclick="fechar_carinho()">Fechar</button>
+         <h3>Confirme seus dados</h3>
+          <div  id="confirmaçao">
+            <h4 id="confirmaçao_nome"></h4>
+            <h4 id="confirmaçao_cpf"></h4>
+            <h4 id="confirmaçao_email"></h4>
+            <h4 id="confirmaçao_telefone"></h4>
+            <h4 id="confirmaçao_cep"></h4>
+            <h4 id="confirmaçao_endereço"></h4>
+            <h4 id="confirmaçao_numero"></h4>
+            <h4 id="confirmaçao_complemento"></h4>
+            <h4 id="confirmaçao_valor_final"></h4>
+         </div>
+         
+
+        <button id="botao_procimo_carinho" onclick="carinho_fim()">confirmar</button>
+      </div>
+    </div>
+    
+  <script src="Dev2Player.js"></script>
+</body>
+</html>

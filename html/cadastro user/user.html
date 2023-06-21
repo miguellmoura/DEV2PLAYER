@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Usuário </title>
+    <link href="./user.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="../../Dev2Player-main/index.html"><img width="400" height="150" src="../assets/fundoremovido.png" alt="dev2player"></a>
+
+        <h1> Cadastro (Jogador) </h1>
+    </nav>
+
+    <label> Nome 
+        <br>
+        <input id="nome" type="text" placeholder="Seu nome">
+    </label>
+
+    <br>
+
+    <label> Email 
+        <br>
+        <input id="email" type="email" placeholder="Seu email">
+    </label>
+
+    <br>
+
+    <label> Senha 
+        <br>
+        <input id="senha" type="password" placeholder="Crie sua senha">
+    </label>
+
+    <br>
+
+    <label> Confirme sua senha 
+        <br>
+        <input id="senha_confirmar" type="password">
+        <br>
+        <label style="font-size: 12px;">Utilize números e símbolos para maior segurança</label>
+    </label>
+
+    <br>
+
+    <button type="button" onclick="cadastrar()"> Cadastrar </button>
+
+    <div id="senha_errada"></div>
+
+    <script src="./user.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,434 @@
+/* estruturas padrois */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Inconsolata:wght@200&display=swap');
+
+
+body {
+    background-image: linear-gradient(to right, #0b0a18, #17073d 60%);
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+p { 
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 600;
+}
+#fundo_loga {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(31, 30, 30, 0.745);
+    z-index: 999;
+  }
+button{
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #003279;
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+    transition: 0.7s;
+}
+button:hover{
+    background-color: #008571;
+  }
+/* bara superior da tela */
+.bara_fixa{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #0b0a18f1, #17073df1 60%);
+}  
+#botao_carinho{
+    position: fixed;
+    left: 91%;
+    top: 3px;
+    width: 85px;
+    font: 1em sans-serif;
+    font-size: 75%;
+}
+#icone_loja{
+    position: fixed;
+    left: 45%;
+    top: 8px;
+    width: 180px;
+}
+#contador_pontos{
+    position: fixed;
+    left: 78%;
+    top: -6px;
+    width: 150px;
+    text-align: center;
+    font-size: small;
+    background-image: linear-gradient(to right, #01013c00, #18024600 60%);
+    border: 4px solid #21005a;
+    border-radius: 20px; 
+}  
+ /*imagen central */
+#imagem_central{
+    height: auto;
+    width: 100%;
+    left: 0;
+}
+/* primeira linha de produtos da loja */
+.box_pc{
+
+    height: auto;
+    width: 200px;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    margin: 9px;
+    font-size: small;
+}
+
+.box_cadeira{
+    height: 340px;
+    width: auto;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+.box_teclado{
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+.box_munitor{   
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+.box_bleze{    
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #9aa202, #ad0000 50%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+    font-size: small;
+}
+.box_A1{
+    display:flex;
+}
+/* segunda linha de produtos da loja */
+.box_mauseped{    
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+
+.box_roleta{    
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+    font-size: 15px
+}
+.box_giftcrd{    
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+.box_pix{    
+    height: 340px;
+    width: 200px;
+    color: #0b0a18;
+    background-image: linear-gradient(to right, #030034, #140536 60%);
+    border: 4px solid #1d0050;
+    border-radius: 20px; 
+    padding: 10px 20px;
+    margin: 9px;
+}
+.box_A2{
+    display:flex;
+}
+/*carinho */
+h2{
+    font-size: 220%;
+    font-family: 'Bebas Neue', sans-serif;
+    position: relative;
+    top: -20px;
+    left: 185px;
+}
+#botao_fechar_carinho{
+    position: relative;
+    top: -95px;
+    left: 400px;
+}
+#avanso_loga{
+    position: fixed;
+    top: 60px;
+    left: 35px;
+}
+#botao_procimo_carinho{
+    position: fixed;
+    top: 545px;
+    left: 380px;
+}
+#carinho_1 {
+    color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #0b0a18, #17073d 60%);
+    border-radius: 10px;
+    z-index: 1000;
+}
+/* itens carinho */
+#conteiner{
+    position: relative;
+    width: 500px;
+    height: 340px;
+    overflow-x: hidden;
+}
+#pc_carinho {
+    display: none;
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#cadeira_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#teclado_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#munitor_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#bleze_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#mauseped_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#roleta_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#gifitcrd_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#pix_carinho{ 
+    display: none; 
+    margin: 10px;
+    height: 100px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+}
+#imagen_list{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#retirar_carinho{
+    position:relative;
+    left: 380px;
+    top: -142px;
+}
+button:hover#retirar_carinho{
+    background-color: #850000;
+  }
+#carinho{
+    position: relative;
+    left: 100px;
+    top: -80px;
+
+}
+#valor_final{
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(to right, #01013c00, #18024600 60%);
+    border: 4px solid #21005a;
+    border-radius: 20px;
+    margin: 10px;
+}
+#valor_insuficiente{
+    font-size: medium;
+    color: #ff0000;
+    position: relative;
+    left: 20px;
+    top: -10px;
+}
+#carinho_2 {
+    color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #0b0a18, #17073d 60%);
+    border-radius: 10px;
+    z-index: 1000;
+}
+input{
+    border: 3px solid #007752;
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 20px;
+    border-radius: 20px;
+    color: #fffdfd;
+    background-image: linear-gradient(to right, #15141d, #1c103a 60%);
+}
+h3{
+    position: relative;
+    left: 60px;
+    top: -25px;
+    font-size: x-large;
+}
+#questionario_pesoal{
+    position: relative;
+    top: -20px;
+}
+#p_c2{
+    position: relative;
+    left: 100px;
+    font-size: medium;
+}
+#carinho_3 {
+    color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #0b0a18, #17073d 60%);
+    border-radius: 10px;
+    z-index: 1000;
+}
+#Endereso{
+    position: relative;
+    left: 210px;
+}
+#carinho_4 {
+    color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 600px;
+    border: 4px solid #1d0050;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #0b0a18, #17073d 60%);
+    border-radius: 10px;
+    z-index: 1000;
+    
+}
+#confirmaçao{
+    font-size: large;
+    margin: 0px;
+    position: relative;
+    left: 40px;
+    top: -30px;
+
+    
+}
+h4{
+    margin: 10px;
+    border: 4px solid #1d0050;
+    width: 400px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #0d0b1f, #0b021f 60%);
+}
+
+
+
+/* bara scroll */
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    background-color: #202020;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #575757; 
+    border-radius: 15px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888888; 
+}
+.loaded {
+    overflow: auto; 
+  }

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Inconsolata:wght@200&display=swap');
+
+
+
+
+
+
+body {
+    background-image: linear-gradient(to right, #5f5ac5, #4408c4 10%);
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #fbfbfb22;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    height: 70px;
+
+}
+.principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.title {
+    display: flex;
+    color: white;
+    font-size: 11px;
+    margin-left: 10px;
+    font-family: 'Bruno Ace SC', cursive;
+    margin: auto 10px auto 10px;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+picture {
+    padding-bottom: 0px;
+
+}
+picture > #notificacao {
+    padding-left: 30px;
+    width: 12%;
+
+}
+
+picture > #perfil {
+    padding-left: 60px;
+    width: 13%;
+}
+picture > #loja {
+    padding-left: 26px;
+    width: 14%;
+}   
+.nav {
+    display: flex;
+    padding-right: 60px;   
+}
+a {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+a:hover {
+    color:#DB2EF2;
+}
+
+.notificacao {
+    margin-right: 30px;
+}
+
+.perfil {
+    margin-right: 30px;
+}
+.loja {
+    margin-right: 30px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+
+a > img {
+    height: 60px;
+    width: 60px;
+    display: flex;
+}
+.botao {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    position:fixed ;
+    bottom: 0 ;
+    right: 0 ;
+}
+
+
+.block1 {
+    background-color: #121126;
+    height: 14%;
+    width: 80vh;
+    margin: auto;
+    border-radius: 10px;
+    border: solid 2px #DB2EF2;
+    margin-bottom: 70px;
+}
+
+.block01 {
+    font-family: 'Bruno Ace', cursive;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+.block01 > .cima01 {
+    display: flex;
+    justify-content: space-between
+    
+}
+.cima01 > .perfil {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.cima01 > .perfil > #p1 {
+    font-family: 'Bruno Ace', cursive;
+    margin: 10px ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.perfil > img {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 20px;
+
+}
+.perfil > #f {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 10px;
+    border-radius: 50%
+}
+.perfil > #f1 {
+    width: 70%;
+    height: 70%;
+    margin: 10px 0px 10px 10px;
+    border-radius: 50%
+}
+.jogo {
+    display: flex;
+}
+.jogo > img {
+    padding-top: 11px;
+    padding-right: 4px;
+    width: 70%;
+    height: 70%;
+}
+.jogo > #cs {
+    padding-top: 11px;
+    padding-right: 4px;
+    width: 70%;
+    height: 70%;
+
+}
+
+
+.nomejogo {
+    display: flex;
+    flex-direction: column;
+}
+.nomejogo > #p2 {
+    color: yellow;
+    margin-bottom: 0px;
+}
+.nomejogo > #p3 {
+    font-size: 10px;
+    margin: 0px;
+}
+.stars {
+    display: inline-block;
+    font-size: 0;
+    cursor: pointer;
+}
+.star {
+    display: inline-block;
+    font-size: 28px;
+    color: #ccc;
+    margin: 10px 10px 0px 0px;
+}
+.star.active,
+.star:hover,
+.star:hover ~ .star {
+  color: #f4d935;
+}
+
+.baixo01 {
+    display: flex;
+    flex-direction: column;
+}
+.baixo01 > #p1 {
+    margin: 10px 0px 5px 10px;
+}
+.baixo01 > #p2 {
+    margin-left: 10px;
+}
+hr {
+    margin: 0px;
+}
+
+

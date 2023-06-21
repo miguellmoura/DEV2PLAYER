@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    
+
+
+    <title> Avaliação </title>
+</head>
+<body>
+    <nav> <a href="../Dev2Player-main/index.html"><img src="./assets/fundoremovido.png" alt="DEV2PLAYER" width="400" height="100"></a></nav>
+    <div id="cont_ext">
+        <div id="infoavaliacao">
+            <select id="droplist">
+                <option value="TLOU"> The Last Of Us </option>
+                <option value="Far Cry 5"> Far Cry 5 </option>
+                <option value="Red Dead Redemption 2"> Red Dead Redemption 2 </option>
+                <option value="Assassin's Creed Odyssey"> Assassin's Creed Odyssey </option>
+                <option value="Over 60"> The Witcher </option>
+            </select>
+
+                <br>
+
+            <div class="stars">
+                <button class="star" onclick="estrela1()" id="1"> &#9733; </button>
+                <button class="star" onclick="estrela2()" id="2"> &#9733; </button>
+                <button class="star" onclick="estrela3()" id="3"> &#9733; </button>
+                <button class="star" onclick="estrela4()" id="4"> &#9733; </button>
+                <button class="star" onclick="estrela5()" id="5"> &#9733; </button>
+
+            </div>
+
+            <br>
+            
+            <label style="color: greenyellow">Digite sua avaliação aqui:</label><br><textarea id="msg" cols="50" rows="15"></textarea><br>
+
+            <button type="submit" id="enviar" onclick="avaliar()" > Enviar </button>
+        </div>
+        <div id="imagem">
+            <img width="300" height="400" src="./assets/tlou.png"> 
+        </div>
+
+
+    </div>
+
+    <script src="./script.js">  </script>
+</body>
+</html>
